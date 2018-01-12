@@ -15,9 +15,9 @@ import {
   DropdownItem 
   } from 'reactstrap';
 
-import Students from './students';
-import Grades from './grades';
-import Assignments from './assignments';
+import Students from './students/students';
+import Grades from './grades/grades';
+import Assignments from './assignments/assignments';
 
 class Main extends Component {
   constructor(props) {
