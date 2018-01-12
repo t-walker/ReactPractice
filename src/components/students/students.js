@@ -1,15 +1,23 @@
 import React, { Component } from 'react';
 
+import Student from './student'
+
 class Students extends Component {
   render() {
     return (
       <div className="Students">
         <h1>Students</h1>
-        <h2>All Students</h2>
-        <ul>
-          <li>Student A</li>
-          <li>Student B</li>
-        </ul>
+        <table className="table">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Grade</th>
+            </tr>
+          </thead>
+          <tbody>
+            <Student name="Tyler" grade="F" />
+          </tbody>
+        </table>
       </div>
     );
   }
